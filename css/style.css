@@ -9803,3 +9803,29 @@ textarea.form-control {
     max-width: 100vw !important;
   }
 }
+
+img,
+video,
+iframe,
+object {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.table-responsive,
+.table-responsive-sm,
+.table-responsive-md,
+.table-responsive-lg,
+.table-responsive-xl {
+  width: 100vw;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* عناصر ملء الشاشة */
+.fullscreen-section {
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
