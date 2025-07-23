@@ -9771,3 +9771,14 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+.slider-item .slider-text {
+  display: flex;
+  flex-direction: column; /* يجعل المحتوى يرتّب عموديًا داخل كل شريحة */
+  justify-content: center;
+  align-items: center;
+  height: 750px;
+}
+.slider-item {
+  overflow-y: auto; /* يتيح التمرير داخل الشريحة */
+}
